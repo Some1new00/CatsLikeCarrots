@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://caarxg8vmxye7"]
+
+[ext_resource type="Script" uid="uid://cfbpugoyan1ls" path="res://Floor2.gd" id="1_3l2mk"]
+[ext_resource type="Texture2D" uid="uid://ci5pmgcyvd8jh" path="res://Godot stuff/world_tileset.png" id="2_fcxra"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3l2mk"]
+size = Vector2(32, 16)
+
+[node name="Floor2" type="StaticBody2D"]
+collision_layer = 2
+script = ExtResource("1_3l2mk")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_fcxra")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(-16, 0)
+texture = ExtResource("2_fcxra")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-8, 0)
+shape = SubResource("RectangleShape2D_3l2mk")
