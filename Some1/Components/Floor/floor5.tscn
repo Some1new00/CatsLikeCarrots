@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqh0wd12bp67h"]
+
+[ext_resource type="Texture2D" uid="uid://ci5pmgcyvd8jh" path="res://Godot stuff/world_tileset.png" id="1_3bp1y"]
+[ext_resource type="Script" uid="uid://bhf343l08qo6y" path="res://Some1/Components/Floor/floor_5.gd" id="1_dm0e7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dm0e7"]
+size = Vector2(80, 16)
+
+[node name="CharacterBody2D" type="StaticBody2D"]
+collision_layer = 2
+script = ExtResource("1_dm0e7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_3bp1y")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_dm0e7")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(32, 0)
+texture = ExtResource("1_3bp1y")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(16, 0)
+texture = ExtResource("1_3bp1y")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(-32, 0)
+texture = ExtResource("1_3bp1y")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+position = Vector2(-15, 0)
+texture = ExtResource("1_3bp1y")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)

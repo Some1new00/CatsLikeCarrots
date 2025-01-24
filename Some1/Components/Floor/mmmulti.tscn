@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3nadq455ka5a"]
+
+[ext_resource type="PackedScene" uid="uid://c8k55q1psvmj1" path="res://Some1/Components/Floor/Floor.tscn" id="1_uk7bj"]
+
+[node name="Mmmulti" type="Node2D"]
+
+[node name="CharacterBody2D4" parent="." instance=ExtResource("1_uk7bj")]
+position = Vector2(52, 0)
+
+[node name="CharacterBody2D5" parent="." instance=ExtResource("1_uk7bj")]
+position = Vector2(26, 0)
+
+[node name="CharacterBody2D6" parent="." instance=ExtResource("1_uk7bj")]
+position = Vector2(78, 0)
+
+[node name="CharacterBody2D7" parent="." instance=ExtResource("1_uk7bj")]
+position = Vector2(156, 0)
+
+[node name="CharacterBody2D8" parent="." instance=ExtResource("1_uk7bj")]
+position = Vector2(130, 0)
+
+[node name="CharacterBody2D9" parent="." instance=ExtResource("1_uk7bj")]
+position = Vector2(104, 0)
+
+[node name="CharacterBody2D10" parent="." instance=ExtResource("1_uk7bj")]
+
+[node name="CharacterBody2D11" parent="." instance=ExtResource("1_uk7bj")]
+position = Vector2(182, 0)

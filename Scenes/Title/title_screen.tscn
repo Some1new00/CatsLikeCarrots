@@ -1,0 +1,130 @@
+[gd_scene load_steps=14 format=3 uid="uid://chbycdj6qo1bc"]
+
+[ext_resource type="Script" uid="uid://jxtapfoaqx3l" path="res://Scenes/Title/title_screen.gd" id="1_cr81p"]
+[ext_resource type="Texture2D" uid="uid://kr2ymfva155w" path="res://Godot stuff/Environments/Forest Road/PNG/forest-road-preview.png" id="2_j3iy2"]
+[ext_resource type="PackedScene" uid="uid://drio75gdttyrr" path="res://Scenes/World/world.tscn" id="2_l1yp5"]
+[ext_resource type="Texture2D" uid="uid://cum3j4pe75xyo" path="res://Godot stuff/Characters/Enemies and NPC/bunny/sprites/bunny1.png" id="3_rov6i"]
+[ext_resource type="Texture2D" uid="uid://bmyabkdkyo3wd" path="res://Godot stuff/Characters/Enemies and NPC/bear/walk/bear-walk1.png" id="4_lcr6r"]
+[ext_resource type="Texture2D" uid="uid://mto27xqqvo2g" path="res://Godot stuff/Characters/Enemies and NPC/Bettle/Sprites/bettle1.png" id="5_xbb4k"]
+[ext_resource type="Texture2D" uid="uid://chd4n3sng5c36" path="res://Godot stuff/Characters/Enemies and NPC/eagle/Sprites/attack/eagle-attack-1.png" id="6_0q18t"]
+[ext_resource type="Texture2D" uid="uid://btbrpy58hsefh" path="res://Godot stuff/Characters/Enemies and NPC/flying-bird/Sprites/flying-creature-cycle-skin4.png" id="7_mhfuj"]
+[ext_resource type="Texture2D" uid="uid://cxfh8hx8muv12" path="res://Godot stuff/Environments/Forest/Forest Expansion Pack/Sprites/PNG/sprites/misc/carrot/carrot-1.png" id="8_md0ff"]
+[ext_resource type="Texture2D" uid="uid://o1scdog5iwax" path="res://Godot stuff/Environments/Forest/Forest Expansion Pack/Sprites/PNG/sprites/misc/carrot/carrot-3.png" id="9_2ryw7"]
+[ext_resource type="Texture2D" uid="uid://pny4yvr0nbsk" path="res://Godot stuff/Environments/Forest/Forest Expansion Pack/Sprites/PNG/sprites/misc/carrot/carrot-4.png" id="10_qwomx"]
+[ext_resource type="Texture2D" uid="uid://bkicy07anogaq" path="res://Godot stuff/Environments/Forest/Forest Expansion Pack/Sprites/PNG/sprites/misc/carrot/carrot-2.png" id="11_dmivp"]
+[ext_resource type="AudioStream" uid="uid://bkxxuj8v75jgh" path="res://Some1/Assets/Music/intro music.mp3" id="12_2ryw7"]
+
+[node name="TitleScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cr81p")
+load_target_scene = ExtResource("2_l1yp5")
+
+[node name="Forest-road-preview" type="Sprite2D" parent="."]
+position = Vector2(319.5, 242.5)
+scale = Vector2(2.69583, 2.15625)
+texture = ExtResource("2_j3iy2")
+
+[node name="StartButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 254.0
+offset_top = 317.0
+offset_right = 368.0
+offset_bottom = 357.0
+text = "Start"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 225.0
+offset_top = 124.0
+offset_right = 442.0
+offset_bottom = 273.0
+theme_override_font_sizes/normal_font_size = 35
+bbcode_enabled = true
+text = "Cats
+	Like
+		Carrots"
+
+[node name="Bunny1" type="Sprite2D" parent="."]
+position = Vector2(500, 433)
+scale = Vector2(2.12, 2.04167)
+texture = ExtResource("3_rov6i")
+
+[node name="Bear-walk1" type="Sprite2D" parent="."]
+position = Vector2(127, 386)
+scale = Vector2(2.48148, 1.69048)
+texture = ExtResource("4_lcr6r")
+
+[node name="Bettle1" type="Sprite2D" parent="."]
+position = Vector2(568.25, 359.875)
+scale = Vector2(2.59722, 1.85256)
+texture = ExtResource("5_xbb4k")
+
+[node name="Eagle-attack-1" type="Sprite2D" parent="."]
+position = Vector2(516.25, 86.125)
+scale = Vector2(3.1375, 3.06707)
+texture = ExtResource("6_0q18t")
+
+[node name="Flying-creature-cycle-skin4" type="Sprite2D" parent="."]
+position = Vector2(60, 220)
+scale = Vector2(2.1875, 2.14516)
+texture = ExtResource("7_mhfuj")
+
+[node name="Carrot-1" type="Sprite2D" parent="."]
+position = Vector2(438, 279)
+scale = Vector2(2.73529, 2.55263)
+texture = ExtResource("8_md0ff")
+
+[node name="Carrot-3" type="Sprite2D" parent="."]
+position = Vector2(369, 287)
+scale = Vector2(2.20588, 1.76316)
+texture = ExtResource("9_2ryw7")
+
+[node name="Carrot-4" type="Sprite2D" parent="."]
+position = Vector2(530, 482)
+scale = Vector2(2.67647, 2.34211)
+texture = ExtResource("10_qwomx")
+
+[node name="Carrot-2" type="Sprite2D" parent="."]
+position = Vector2(385, 205)
+scale = Vector2(2.61765, 2.23684)
+texture = ExtResource("11_dmivp")
+
+[node name="Carrot-5" type="Sprite2D" parent="."]
+position = Vector2(260, 269)
+scale = Vector2(2.67647, 2.18421)
+texture = ExtResource("8_md0ff")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_2ryw7")
+autoplay = true
+bus = &"Music"
+
+[node name="Touch Controls" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 249.0
+offset_top = 410.0
+offset_right = 374.0
+offset_bottom = 450.0
+toggle_mode = true
+text = "Touch Controls"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="." groups=["ctrls"]]
+visible = false
+layout_mode = 0
+offset_left = 214.0
+offset_top = 379.0
+offset_right = 409.0
+offset_bottom = 404.0
+theme_override_colors/default_color = Color(0, 0, 1, 1)
+theme_override_colors/font_outline_color = Color(0.775063, 0.775063, 0.775063, 1)
+theme_override_colors/font_shadow_color = Color(0.344076, 0.344076, 0.344076, 1)
+text = "Touch Controls: Enabled"
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="Touch Controls" to="." method="_on_touch_controls_pressed"]

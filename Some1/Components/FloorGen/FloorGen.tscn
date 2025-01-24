@@ -1,0 +1,42 @@
+[gd_scene load_steps=10 format=3 uid="uid://b08w2ecv60fy5"]
+
+[ext_resource type="Script" uid="uid://dy0f32nnbj870" path="res://Some1/Components/FloorGen/floor_gen.gd" id="1_47p7n"]
+[ext_resource type="Texture2D" uid="uid://d14anbao6s0n0" path="res://Godot stuff/1 Pink_Monster/Pink_Monster.png" id="2_n6r6l"]
+[ext_resource type="PackedScene" uid="uid://c8k55q1psvmj1" path="res://Some1/Components/Floor/Floor.tscn" id="2_nrh6m"]
+[ext_resource type="PackedScene" uid="uid://caarxg8vmxye7" path="res://Some1/Components/Floor/floor2.tscn" id="3_ikf07"]
+[ext_resource type="PackedScene" uid="uid://dogw623hn6j1x" path="res://Some1/Components/Floor/floor3.tscn" id="4_qgvw8"]
+[ext_resource type="PackedScene" uid="uid://dlsvdrxc5r43g" path="res://Some1/Components/Floor/floor4.tscn" id="5_qgvw8"]
+[ext_resource type="PackedScene" uid="uid://bqh0wd12bp67h" path="res://Some1/Components/Floor/floor5.tscn" id="6_o0qh6"]
+[ext_resource type="PackedScene" uid="uid://c8py47uked8e" path="res://Some1/Components/Floor/floor6.tscn" id="7_of3uo"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_n6r6l"]
+radius = 7.0
+
+[node name="FloorGen" type="CharacterBody2D"]
+collision_layer = 4
+collision_mask = 8
+script = ExtResource("1_47p7n")
+target_spawnable = ExtResource("2_nrh6m")
+target_spawnable2 = ExtResource("3_ikf07")
+target_spawnable3 = ExtResource("4_qgvw8")
+target_spawnable4 = ExtResource("5_qgvw8")
+target_spawnable5 = ExtResource("6_o0qh6")
+target_spawnable6 = ExtResource("7_of3uo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(4, -1)
+texture = ExtResource("2_n6r6l")
+
+[node name="Interval" type="Timer" parent="."]
+unique_name_in_owner = true
+wait_time = 1.414
+autostart = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, 1)
+shape = SubResource("CapsuleShape2D_n6r6l")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(11, 5)
+target_position = Vector2(0, 25)
+collision_mask = 8
