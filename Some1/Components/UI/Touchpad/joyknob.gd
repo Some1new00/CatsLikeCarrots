@@ -1,7 +1,6 @@
-extends Sprite2D
+class_name JoyKnob extends Sprite2D
 
 @onready var parent: Node2D = $".."
-
 
 @export var maxLength = 50
 @export var deadZone = 3

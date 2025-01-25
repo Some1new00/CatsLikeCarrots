@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2pfq08130qnp"
-path="res://.godot/imported/3_Cat_Jump-Sheet.png-3b7309d05986046fdf5af51752bbefae.ctex"
+uid="uid://ofdma8424inh"
+path="res://.godot/imported/carrot512.png-ce44c2487335489c7fcb98d0ff96dc2c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://3_Cat_Jump-Sheet.png"
-dest_files=["res://.godot/imported/3_Cat_Jump-Sheet.png-3b7309d05986046fdf5af51752bbefae.ctex"]
+source_file="res://Some1/Assets/org/carrot512.png"
+dest_files=["res://.godot/imported/carrot512.png-ce44c2487335489c7fcb98d0ff96dc2c.ctex"]
 
 [params]
 

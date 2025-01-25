@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://yheep1etu34k"
-path="res://.godot/imported/icons8-triangle-32.png-e9080ef6853809f8d2f1eb8150f69ab6.ctex"
+uid="uid://cxpncc6fqiiul"
+path="res://.godot/imported/carrot-cat-cute-png.png-959d1cdcb580f5ac204c703a1e578bd8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Some1/Components/Touchpad/icons8-triangle-32.png"
-dest_files=["res://.godot/imported/icons8-triangle-32.png-e9080ef6853809f8d2f1eb8150f69ab6.ctex"]
+source_file="res://Some1/Assets/org/carrot-cat-cute-png.png"
+dest_files=["res://.godot/imported/carrot-cat-cute-png.png-959d1cdcb580f5ac204c703a1e578bd8.ctex"]
 
 [params]
 

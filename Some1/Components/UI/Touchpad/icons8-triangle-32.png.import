@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cquu4pjundv25"
-path="res://.godot/imported/joyring.png-12dacea9f239454f121055fd7ece92ca.ctex"
+uid="uid://cn23h2l3el1l7"
+path="res://.godot/imported/icons8-triangle-32.png-c0b6446bcb78972d7f1d63780c8ca2db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://joyring.png"
-dest_files=["res://.godot/imported/joyring.png-12dacea9f239454f121055fd7ece92ca.ctex"]
+source_file="res://Some1/Components/UI/Touchpad/icons8-triangle-32.png"
+dest_files=["res://.godot/imported/icons8-triangle-32.png-c0b6446bcb78972d7f1d63780c8ca2db.ctex"]
 
 [params]
 

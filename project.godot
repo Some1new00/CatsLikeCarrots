@@ -11,25 +11,34 @@ config_version=5
 [application]
 
 config/name="Falling"
+config/description="Cats Like Carrots by Some1new00"
+config/version="v1.0.3"
 run/main_scene="uid://chbycdj6qo1bc"
+config/use_custom_user_dir=true
 config/features=PackedStringArray("4.4", "Forward Plus")
+boot_splash/bg_color=Color(0.34902, 0.52549, 0.443137, 0.639216)
+boot_splash/image="uid://cxpncc6fqiiul"
 config/icon="uid://cxpncc6fqiiul"
+config/windows_native_icon="res://Some1/Assets/org/carrot-cat-cute-png.ico"
 
 [autoload]
 
-Globals="*res://Globals.gd"
+Globals="*res://Some1/Scripts/Globals.gd"
 
 [display]
 
 window/size/viewport_width=640
 window/size/viewport_height=480
 window/stretch/mode="canvas_items"
+mouse_cursor/custom_image="uid://cpkh136sv4xrd"
+mouse_cursor/custom_image_hotspot=Vector2(9, 5)
 
 [file_customization]
 
 folder_colors={
 "res://Scenes/": "gray",
-"res://Some1/": "yellow"
+"res://Some1/": "yellow",
+"res://Some1/Components/UI/": "green"
 }
 
 [global_group]

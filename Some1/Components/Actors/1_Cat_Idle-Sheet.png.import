@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hyc1w8ess30k"
-path="res://.godot/imported/2_Cat_Run-Sheet.png-4dc79db22dd8d6de3b614e3fd09b34bc.ctex"
+uid="uid://ctjqucovlie61"
+path="res://.godot/imported/1_Cat_Idle-Sheet.png-7d178a315bcfd2462af330b60ba4758f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://2_Cat_Run-Sheet.png"
-dest_files=["res://.godot/imported/2_Cat_Run-Sheet.png-4dc79db22dd8d6de3b614e3fd09b34bc.ctex"]
+source_file="res://Some1/Components/Actors/1_Cat_Idle-Sheet.png"
+dest_files=["res://.godot/imported/1_Cat_Idle-Sheet.png-7d178a315bcfd2462af330b60ba4758f.ctex"]
 
 [params]
 

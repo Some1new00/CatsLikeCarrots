@@ -16,9 +16,9 @@
 [ext_resource type="PackedScene" uid="uid://dvowolkwaa2s0" path="res://Some1/Components/Death/danger_zone.tscn" id="11_lo5ox"]
 [ext_resource type="AudioStream" uid="uid://cdwbq3sgl0bot" path="res://Some1/Assets/Music/game music.mp3" id="12_h2aik"]
 [ext_resource type="AudioStream" uid="uid://cc3yq8ccatfva" path="res://Some1/Assets/Music/game-over-38511.mp3" id="13_0wqet"]
-[ext_resource type="Texture2D" uid="uid://dbd1fntna2eyj" path="res://forest_short.png" id="17_5xkvv"]
-[ext_resource type="PackedScene" uid="uid://cumniw1d4b0wx" path="res://Some1/Components/Touchpad/joystick.tscn" id="18_kcyjf"]
-[ext_resource type="PackedScene" uid="uid://c1n0e8stdn72w" path="res://Some1/Components/Touchpad/jump_button.tscn" id="19_xw5lg"]
+[ext_resource type="Texture2D" uid="uid://dbd1fntna2eyj" path="res://Some1/Assets/Backgrounds/forest_short.png" id="17_5xkvv"]
+[ext_resource type="PackedScene" uid="uid://cumniw1d4b0wx" path="res://Some1/Components/UI/Touchpad/joystick.tscn" id="18_kcyjf"]
+[ext_resource type="PackedScene" uid="uid://c1n0e8stdn72w" path="res://Some1/Components/UI/Touchpad/jump_button.tscn" id="19_xw5lg"]
 
 [sub_resource type="Animation" id="Animation_w47uh"]
 length = 0.001
@@ -203,6 +203,10 @@ size = Vector2(1870.75, 53)
 script = ExtResource("1_w47uh")
 level_start_pos = NodePath("StageStart")
 
+[node name="GameWin" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+
 [node name="StageStart" type="Node2D" parent="."]
 position = Vector2(469, 47)
 
@@ -332,11 +336,6 @@ shape = SubResource("RectangleShape2D_h2aik")
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="DangerZone"]
 position = Vector2(531.625, -366)
 shape = SubResource("RectangleShape2D_lo5ox")
-
-[node name="GameWin" type="Timer" parent="."]
-wait_time = 89.995
-one_shot = true
-autostart = true
 
 [node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("12_h2aik")

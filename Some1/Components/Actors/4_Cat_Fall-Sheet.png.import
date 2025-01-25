@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxpncc6fqiiul"
-path="res://.godot/imported/carrot-cat-cute-png.png-1046b1513ff587938b5da468e5fb6d54.ctex"
+uid="uid://cdl6bw7r8j2jg"
+path="res://.godot/imported/4_Cat_Fall-Sheet.png-de1683fa0b6b8149f0bcd7bd2c457a8e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://carrot-cat-cute-png.png"
-dest_files=["res://.godot/imported/carrot-cat-cute-png.png-1046b1513ff587938b5da468e5fb6d54.ctex"]
+source_file="res://Some1/Components/Actors/4_Cat_Fall-Sheet.png"
+dest_files=["res://.godot/imported/4_Cat_Fall-Sheet.png-de1683fa0b6b8149f0bcd7bd2c457a8e.ctex"]
 
 [params]
 
