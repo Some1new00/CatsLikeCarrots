@@ -9,8 +9,7 @@ var pressed :bool = false
 func _ready() -> void:
 	button.action="Jump"
 	
-func hidea():
-	visible = Globals.OSC
+func hide_touch_controls():visible = Globals.OSC	
 
 func jump() -> void :		Input.action_release("Jump")
 func _on_button_pressed() -> void:		jump()
