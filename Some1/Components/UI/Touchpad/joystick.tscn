@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://cumniw1d4b0wx"]
 
-[ext_resource type="Texture2D" uid="uid://cesvm68fiqfbv" path="res://joyknobpng.png" id="1_p2gl4"]
-[ext_resource type="Script" uid="uid://b2dtswf7vhdan" path="res://Some1/Components/Touchpad/joystick.gd" id="1_ryyg8"]
-[ext_resource type="Texture2D" uid="uid://cquu4pjundv25" path="res://joyring.png" id="2_mjapp"]
-[ext_resource type="Script" uid="uid://c0ukfwe780wnu" path="res://Some1/Components/Touchpad/joyknob.gd" id="4_whepe"]
+[ext_resource type="Texture2D" uid="uid://cesvm68fiqfbv" path="res://Some1/Components/UI/Touchpad/joyknobpng.png" id="1_p2gl4"]
+[ext_resource type="Script" uid="uid://b2dtswf7vhdan" path="res://Some1/Components/UI/Touchpad/joystick.gd" id="1_ryyg8"]
+[ext_resource type="Texture2D" uid="uid://cquu4pjundv25" path="res://Some1/Components/UI/Touchpad/joyring.png" id="2_mjapp"]
+[ext_resource type="Script" uid="uid://c0ukfwe780wnu" path="res://Some1/Components/UI/Touchpad/joyknob.gd" id="4_whepe"]
 
 [node name="Joystick" type="Node2D" groups=["ctrls"]]
 scale = Vector2(1.5, 1.5)

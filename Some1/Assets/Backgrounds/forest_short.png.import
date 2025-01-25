@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctjqucovlie61"
-path="res://.godot/imported/1_Cat_Idle-Sheet.png-e70b2cd03ae41066250c6817b74eb844.ctex"
+uid="uid://dbd1fntna2eyj"
+path="res://.godot/imported/forest_short.png-637c3b22d8562a27cbe61c04405c9dcf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://1_Cat_Idle-Sheet.png"
-dest_files=["res://.godot/imported/1_Cat_Idle-Sheet.png-e70b2cd03ae41066250c6817b74eb844.ctex"]
+source_file="res://Some1/Assets/Backgrounds/forest_short.png"
+dest_files=["res://.godot/imported/forest_short.png-637c3b22d8562a27cbe61c04405c9dcf.ctex"]
 
 [params]
 

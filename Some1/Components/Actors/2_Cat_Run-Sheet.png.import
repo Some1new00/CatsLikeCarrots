@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cn23h2l3el1l7"
-path="res://.godot/imported/icons8-triangle-32.png-ca96375a8c5a30fed142b9af10e7a82d.ctex"
+uid="uid://hyc1w8ess30k"
+path="res://.godot/imported/2_Cat_Run-Sheet.png-174d0f97f192b09907b0b51061090487.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icons8-triangle-32.png"
-dest_files=["res://.godot/imported/icons8-triangle-32.png-ca96375a8c5a30fed142b9af10e7a82d.ctex"]
+source_file="res://Some1/Components/Actors/2_Cat_Run-Sheet.png"
+dest_files=["res://.godot/imported/2_Cat_Run-Sheet.png-174d0f97f192b09907b0b51061090487.ctex"]
 
 [params]
 

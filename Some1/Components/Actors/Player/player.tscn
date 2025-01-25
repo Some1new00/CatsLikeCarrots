@@ -1,10 +1,10 @@
 [gd_scene load_steps=37 format=3 uid="uid://wyrqlegaphtu"]
 
 [ext_resource type="Script" uid="uid://byj3w5tn21tp0" path="res://Some1/Components/Actors/Player/player.gd" id="1_4ntmi"]
-[ext_resource type="Texture2D" uid="uid://hyc1w8ess30k" path="res://2_Cat_Run-Sheet.png" id="2_4ntmi"]
-[ext_resource type="Texture2D" uid="uid://ctjqucovlie61" path="res://1_Cat_Idle-Sheet.png" id="2_btcbx"]
-[ext_resource type="Texture2D" uid="uid://cdl6bw7r8j2jg" path="res://4_Cat_Fall-Sheet.png" id="2_k53q1"]
-[ext_resource type="Texture2D" uid="uid://c2pfq08130qnp" path="res://3_Cat_Jump-Sheet.png" id="4_fhl08"]
+[ext_resource type="Texture2D" uid="uid://hyc1w8ess30k" path="res://Some1/Components/Actors/2_Cat_Run-Sheet.png" id="2_4ntmi"]
+[ext_resource type="Texture2D" uid="uid://ctjqucovlie61" path="res://Some1/Components/Actors/1_Cat_Idle-Sheet.png" id="2_btcbx"]
+[ext_resource type="Texture2D" uid="uid://cdl6bw7r8j2jg" path="res://Some1/Components/Actors/4_Cat_Fall-Sheet.png" id="2_k53q1"]
+[ext_resource type="Texture2D" uid="uid://c2pfq08130qnp" path="res://Some1/Components/Actors/3_Cat_Jump-Sheet.png" id="4_fhl08"]
 [ext_resource type="AudioStream" uid="uid://bf0wptms3ofa7" path="res://Some1/Assets/Music/video-game-hit-noise-001-135821.mp3" id="6_fhl08"]
 [ext_resource type="AudioStream" uid="uid://bo2uelqen8y4p" path="res://Some1/Assets/Music/cartoon-jump-6462.mp3" id="7_vtle1"]
 

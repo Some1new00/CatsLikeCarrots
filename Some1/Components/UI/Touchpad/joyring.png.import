@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cesvm68fiqfbv"
-path="res://.godot/imported/joyknobpng.png-05453b892873415b224801fdfc856882.ctex"
+uid="uid://cquu4pjundv25"
+path="res://.godot/imported/joyring.png-a2d46102fb89b3126403881032c246d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://joyknobpng.png"
-dest_files=["res://.godot/imported/joyknobpng.png-05453b892873415b224801fdfc856882.ctex"]
+source_file="res://Some1/Components/UI/Touchpad/joyring.png"
+dest_files=["res://.godot/imported/joyring.png-a2d46102fb89b3126403881032c246d5.ctex"]
 
 [params]
 

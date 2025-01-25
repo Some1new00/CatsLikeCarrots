@@ -6,7 +6,6 @@ var facing_right = true
 @onready var joystick: Node2D = $"../Joystick"
 
 
-
 var player_death = 0
 @onready var player_sprite = $Sprite2D
 @onready var stage_start: Node2D = $"../StageStart"
@@ -55,10 +54,6 @@ func handle_danger() -> void:
 	_hud_setup()
 
 
-
-	
-	
-	
 func _hud_setup() -> void:
 	if player_death == 1:
 		hud_4.visible = false

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dbd1fntna2eyj"
-path="res://.godot/imported/forest_short.png-3559cac65e0a4ce66d724b706aca06e0.ctex"
+uid="uid://cesvm68fiqfbv"
+path="res://.godot/imported/joyknobpng.png-875ab36c818e844b1f4c36f84f68c818.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://forest_short.png"
-dest_files=["res://.godot/imported/forest_short.png-3559cac65e0a4ce66d724b706aca06e0.ctex"]
+source_file="res://Some1/Components/UI/Touchpad/joyknobpng.png"
+dest_files=["res://.godot/imported/joyknobpng.png-875ab36c818e844b1f4c36f84f68c818.ctex"]
 
 [params]
 

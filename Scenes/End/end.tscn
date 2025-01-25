@@ -1,10 +1,10 @@
 [gd_scene load_steps=70 format=3 uid="uid://brsplsie2fpup"]
 
-[ext_resource type="Script" uid="uid://bhogqe7telkuy" path="res://control.gd" id="1_rpjas"]
+[ext_resource type="Script" uid="uid://bhogqe7telkuy" path="res://Scenes/End/End.gd" id="1_rpjas"]
 [ext_resource type="Texture2D" uid="uid://brg5nukauf5bk" path="res://Godot stuff/Environments/Forest of Illusion/Forest of Illusion Expansion Pack/Previews/Illusion-forest-a.png" id="2_rrv0u"]
 [ext_resource type="Texture2D" uid="uid://c7teiia651ajf" path="res://Godot stuff/Environments/Forest/Forest Expansion Pack/Sprites/PNG/spritesheets/misc/carrot.png" id="3_gaq5n"]
 [ext_resource type="Texture2D" uid="uid://bxgccpovmb287" path="res://Godot stuff/Characters/Enemies and NPC/bunny/sprites/bunny2.png" id="4_4rp62"]
-[ext_resource type="Texture2D" uid="uid://ctjqucovlie61" path="res://1_Cat_Idle-Sheet.png" id="5_5x3lp"]
+[ext_resource type="Texture2D" uid="uid://ctjqucovlie61" path="res://Some1/Components/Actors/1_Cat_Idle-Sheet.png" id="5_5x3lp"]
 [ext_resource type="Texture2D" uid="uid://cd52h0p4ecvdb" path="res://imported_assets/Cats Download/black_0.png" id="6_8viw5"]
 [ext_resource type="Texture2D" uid="uid://co24o2mcb1cyk" path="res://imported_assets/Cats Download/pink_0.png" id="7_170xd"]
 [ext_resource type="Texture2D" uid="uid://dt0cxmt5cecwr" path="res://imported_assets/Cats Download/white_grey_0.png" id="8_48ok2"]
